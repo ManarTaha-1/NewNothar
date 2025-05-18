@@ -540,8 +540,8 @@ footer div{
     }
    .close-btn {
     position: absolute;
-    top: 10px;
-    left: 0px;
+    top: 30px;
+    left: 30px;
     z-index:1200 ;
     font-size: 24px;
     background: aliceblue;
@@ -549,8 +549,8 @@ footer div{
     outline: none;
     width: 40px; /* Make width equal to height */
     height: 40px; /* Ensure a perfect circle */
-    border-radius: 50%; /* Makes the button circular */
     cursor: pointer;
+    border-radius: 2px; /* Make it circular */
     color: #333;
     font-weight: 600;
     display: flex;
